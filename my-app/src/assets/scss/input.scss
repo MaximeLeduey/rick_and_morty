@@ -82,6 +82,7 @@ body {
 .card-list {
     margin: 0 auto;
     width: 60vw;
+    margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
@@ -123,4 +124,16 @@ body {
 
 hr {
     width: 600px;
+}
+
+
+.footer {
+    height: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    &_text {
+        color: white;
+        font-size: 12px;
+    }
 }
