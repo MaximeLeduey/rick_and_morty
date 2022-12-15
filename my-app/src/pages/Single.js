@@ -28,13 +28,13 @@ function Single() {
 
     return (
         <React.Fragment>
-            <div className='container single'>
-                <div className="container_column-1">
+            <div className='single'>
+                <div className="single_column-1">
                     <div className='single_image'>
                         <img src={data.image}></img>
                     </div>
                 </div>
-                <div className="container_column-2">
+                <div className="single_column-2">
                     <p className='single_name'>{data.name}</p>
                     {/* <p className='single_location'>{data.location.name}</p> */}
                     <p className='single_subtitle'>{data.name} est un spécimen {data.type} de type {data.gender}</p>
